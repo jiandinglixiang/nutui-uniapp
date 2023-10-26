@@ -63,6 +63,7 @@ interface NavigateToOptions {
        "pages/demo/exhibition/price/index" |
        "pages/demo/exhibition/progress/index" |
        "pages/demo/exhibition/skeleton/index" |
+       "pages/demo/exhibition/space/index" |
        "pages/demo/exhibition/steps/index" |
        "pages/demo/exhibition/swiper/index" |
        "pages/demo/exhibition/table/index" |

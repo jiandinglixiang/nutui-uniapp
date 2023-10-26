@@ -80,6 +80,7 @@ declare module '@vue/runtime-core' {
     NutSku: typeof import('./components/sku/sku.vue')['default']
     NutSkuHeader: typeof import('./components/skuheader/skuheader.vue')['default']
     NutSkuOperate: typeof import('./components/skuoperate/skuoperate.vue')['default']
+    NutSpace: typeof import('./components/space/space.vue')['default']
     NutStep: typeof import('./components/step/step.vue')['default']
     NutSteps: typeof import('./components/steps/steps.vue')['default']
     NutSticky: typeof import('./components/sticky/sticky.vue')['default']

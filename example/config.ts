@@ -1152,6 +1152,17 @@ export default {
           type: 'component',
           author: 'yangxiaolu',
         },
+        {
+          version: '1.0.0',
+          name: 'Space',
+          cName: '间距',
+          desc: '设置元素之间的间距。',
+          show: true,
+          uni: true,
+          unidoc: true,
+          type: 'component',
+          author: 'Marvin',
+        },
       ],
     },
     {

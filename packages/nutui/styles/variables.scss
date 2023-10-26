@@ -989,6 +989,7 @@ $code-input-content-color: var(--nut-code-content-color, #606266) !default;;
 // LoadingPage
 $loadingpage-icon-margin-bottom: var(--nut-loadingpage-icon-margin-bottom, 10px) !default;
 
-
+// Space
+$space-gap: var(--nut-space-gap, 8px) !default;
 
 @import './mixins/index';

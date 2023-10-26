@@ -105,6 +105,7 @@ export const components = [
       // { text: 'Tour 引导', link: '/components/exhibition/tour' },
       { text: 'TrendArrow 趋势箭头', link: '/components/exhibition/trendarrow' },
       { text: 'Watermark 水印', link: '/components/exhibition/watermark' },
+      { text: 'Space 间距', link: '/components/exhibition/space' },
     ],
   },
   {
