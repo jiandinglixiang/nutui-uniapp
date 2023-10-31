@@ -1316,6 +1316,17 @@ export default {
           author: 'ailululu',
           uni: true,
         },
+        {
+          version: '1.0.0',
+          name: 'AvatarCropper',
+          type: 'component',
+          tarodoc: true,
+          show: true,
+          cName: '头像裁剪',
+          desc: '仿微信头像裁剪功能',
+          uni: true,
+          author: 'Marvin',
+        },
       ],
     },
     {
