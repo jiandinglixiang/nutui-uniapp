@@ -15,16 +15,16 @@
 <template>
   <nut-swiper :init-page="page" :pagination-visible="true" pagination-color="#426543" pagination-unselected-color="#808080" auto-play="3000">
     <nut-swiper-item>
-      <img src="https://storage.360buyimg.com/jdc-article/NutUItaro34.jpg" alt="" />
+      <image src="https://storage.360buyimg.com/jdc-article/NutUItaro34.jpg" alt="" />
     </nut-swiper-item>
     <nut-swiper-item>
-      <img src="https://storage.360buyimg.com/jdc-article/NutUItaro2.jpg" alt="" />
+      <image src="https://storage.360buyimg.com/jdc-article/NutUItaro2.jpg" alt="" />
     </nut-swiper-item>
     <nut-swiper-item>
-      <img src="https://storage.360buyimg.com/jdc-article/welcomenutui.jpg" alt="" />
+      <image src="https://storage.360buyimg.com/jdc-article/welcomenutui.jpg" alt="" />
     </nut-swiper-item>
     <nut-swiper-item>
-      <img src="https://storage.360buyimg.com/jdc-article/fristfabu.jpg" alt="" />
+      <image src="https://storage.360buyimg.com/jdc-article/fristfabu.jpg" alt="" />
     </nut-swiper-item>
   </nut-swiper>
 </template>
@@ -56,7 +56,7 @@
 <template>
   <nut-swiper :init-page="page" :pagination-visible="true" pagination-color="#426543" auto-play="3000">
      <nut-swiper-item v-for="item in list" :key="item">
-        <img :src="item" alt="" />
+        <image :src="item" alt="" />
       </nut-swiper-item>
   </nut-swiper>
 </template>
@@ -101,7 +101,7 @@
 <template>
   <nut-swiper :init-page="page" :pagination-visible="true" pagination-color="#426543" auto-play="3000">
      <nut-swiper-item v-for="item in list" :key="item">
-        <img :src="item" alt="" />
+        <image :src="item" alt="" />
       </nut-swiper-item>
   </nut-swiper>
 </template>
@@ -146,16 +146,16 @@
 <template>
   <nut-swiper :init-page="page2" :loop="false" width="300">
     <nut-swiper-item>
-      <img src="https://storage.360buyimg.com/jdc-article/NutUItaro34.jpg" alt="" />
+      <image src="https://storage.360buyimg.com/jdc-article/NutUItaro34.jpg" alt="" />
     </nut-swiper-item>
     <nut-swiper-item>
-      <img src="https://storage.360buyimg.com/jdc-article/NutUItaro2.jpg" alt="" />
+      <image src="https://storage.360buyimg.com/jdc-article/NutUItaro2.jpg" alt="" />
     </nut-swiper-item>
     <nut-swiper-item>
-      <img src="https://storage.360buyimg.com/jdc-article/welcomenutui.jpg" alt="" />
+      <image src="https://storage.360buyimg.com/jdc-article/welcomenutui.jpg" alt="" />
     </nut-swiper-item>
     <nut-swiper-item>
-      <img src="https://storage.360buyimg.com/jdc-article/fristfabu.jpg" alt="" />
+      <image src="https://storage.360buyimg.com/jdc-article/fristfabu.jpg" alt="" />
     </nut-swiper-item>
   </nut-swiper>
 </template>
@@ -189,16 +189,16 @@
 <template>
   <nut-swiper :init-page="page3" :loop="true" @change="change">
       <nut-swiper-item>
-        <img src="https://storage.360buyimg.com/jdc-article/NutUItaro34.jpg" alt="" />
+        <image src="https://storage.360buyimg.com/jdc-article/NutUItaro34.jpg" alt="" />
       </nut-swiper-item>
       <nut-swiper-item>
-        <img src="https://storage.360buyimg.com/jdc-article/NutUItaro2.jpg" alt="" />
+        <image src="https://storage.360buyimg.com/jdc-article/NutUItaro2.jpg" alt="" />
       </nut-swiper-item>
       <nut-swiper-item>
-        <img src="https://storage.360buyimg.com/jdc-article/welcomenutui.jpg" alt="" />
+        <image src="https://storage.360buyimg.com/jdc-article/welcomenutui.jpg" alt="" />
       </nut-swiper-item>
       <nut-swiper-item>
-        <img src="https://storage.360buyimg.com/jdc-article/fristfabu.jpg" alt="" />
+        <image src="https://storage.360buyimg.com/jdc-article/fristfabu.jpg" alt="" />
       </nut-swiper-item>
       <template v-slot:page>
         <div class="page"> {{ current }}/4 </div>
@@ -249,16 +249,16 @@
 <template>
   <nut-swiper :init-page="page" :loop="true" @change="change" auto-play="2000">
       <nut-swiper-item>
-        <img src="https://storage.360buyimg.com/jdc-article/NutUItaro34.jpg" alt="" />
+        <image src="https://storage.360buyimg.com/jdc-article/NutUItaro34.jpg" alt="" />
       </nut-swiper-item>
       <nut-swiper-item>
-        <img src="https://storage.360buyimg.com/jdc-article/NutUItaro2.jpg" alt="" />
+        <image src="https://storage.360buyimg.com/jdc-article/NutUItaro2.jpg" alt="" />
       </nut-swiper-item>
       <nut-swiper-item>
-        <img src="https://storage.360buyimg.com/jdc-article/welcomenutui.jpg" alt="" />
+        <image src="https://storage.360buyimg.com/jdc-article/welcomenutui.jpg" alt="" />
       </nut-swiper-item>
       <nut-swiper-item>
-        <img src="https://storage.360buyimg.com/jdc-article/fristfabu.jpg" alt="" />
+        <image src="https://storage.360buyimg.com/jdc-article/fristfabu.jpg" alt="" />
       </nut-swiper-item>
       <template v-slot:page>
         <div class="page"> {{ current1 }}/4 </div>
@@ -312,7 +312,7 @@
   <view class="demo-box">
     <nut-swiper :init-page="page" :loop="true" ref="swiper">
       <nut-swiper-item v-for="item in list" :key="item">
-        <img :src="item" alt="" />
+        <image :src="item" alt="" />
       </nut-swiper-item>
     </nut-swiper>
     <view class="nut-swiper-btns">
@@ -393,16 +393,16 @@
 <template>
   <nut-swiper :init-page="page4" :loop="true" auto-play="3000" direction="vertical" height="150" :pagination-visible="true" style="height: 150px">
     <nut-swiper-item>
-      <img src="https://storage.360buyimg.com/jdc-article/NutUItaro34.jpg" alt="" />
+      <image src="https://storage.360buyimg.com/jdc-article/NutUItaro34.jpg" alt="" />
     </nut-swiper-item>
     <nut-swiper-item>
-      <img src="https://storage.360buyimg.com/jdc-article/NutUItaro2.jpg" alt="" />
+      <image src="https://storage.360buyimg.com/jdc-article/NutUItaro2.jpg" alt="" />
     </nut-swiper-item>
     <nut-swiper-item>
-      <img src="https://storage.360buyimg.com/jdc-article/welcomenutui.jpg" alt="" />
+      <image src="https://storage.360buyimg.com/jdc-article/welcomenutui.jpg" alt="" />
     </nut-swiper-item>
     <nut-swiper-item>
-      <img src="https://storage.360buyimg.com/jdc-article/fristfabu.jpg" alt="" />
+      <image src="https://storage.360buyimg.com/jdc-article/fristfabu.jpg" alt="" />
     </nut-swiper-item>
   </nut-swiper>
 </template>
